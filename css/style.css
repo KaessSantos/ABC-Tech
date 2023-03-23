@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header>h1{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0 5px 15px;
+    font-size:2rem;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+nav ul{
+    background-color:#043583;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition:1s;
+}
+
+span {
+    display:flex;
+    z-index: 999;
+    position: fixed;
+    color: #fff;
+    top: 7px;
+    right: 35px;
+    font-size: 2rem;
+    display: none;
+}
+
+li>a:hover{
+    color: #ffffff71;
+    letter-spacing: 0.5px;
+}
+
+#imagemHeader{
+    height: 700px;
+    width: 100%;
+    background-image:url('../image/teclado.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-color:#043583;
+    padding: 20px;
+}
+
+article{
+    background-color: #9facc246;
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    line-height: 3.2rem;
+    text-align: center;
+}
+
+article p{
+    font-size: 18px;
+    color:#000;
+    text-align: left;
+    margin-top: 30px;
+}
+
+article h2{
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'poppins';
+}
+
+footer{
+    background-color:#000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* Página de cadastro */
+
+#pgInicial button {
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px ;
+    cursor: pointer;
+    border: none;
+    box-shadow: #000 2px 2px 15px;
+    position: fixed;
+    z-index: 999;
+}
+
+
+#pgInicial button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+/* Medias Query */
+
+
+@media screen and (max-width: 600px){
+
+    span{
+        display:flex;
+        z-index: 999;
+        position: fixed;
+        color: #fff;
+        top: 7px;
+        right: 15px;
+        font-size: 2rem;
+        display:flex;
+        cursor: pointer;
+    }
+    
+
+    nav{
+        right: 0;
+        position: fixed;
+        width: 0;
+        transition: 1s;
+        overflow: hidden;
+
+    }
+
+    nav ul{
+        background-color:#061f46;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+
+    nav ul li{
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+
+    nav ul li:hover{
+        background-color: rgba(0, 0, 255, 0.438);
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    nav ul li a:hover{
+        color: #fff;
+    }
+
+    #container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color:#043583;
+        padding: 20px;
+    }
+
+    article{
+        background-color: #9facc246;
+        flex: 1;
+        padding: 20px;
+        margin-top: 10px;
+        line-height: 3.2rem;
+        text-align: center;
+    }
+
+    .container{
+        margin-top: 50px;
+    }
+
+    #pgInicial button {
+        background-color: green;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 5px ;
+        cursor: pointer;
+        border: none;
+        box-shadow: #000 2px 2px 15px;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+
+    .remove{
+        width:200px;
+    }
+}
+
+
