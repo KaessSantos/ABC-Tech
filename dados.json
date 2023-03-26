@@ -1,0 +1,28 @@
+{
+    "vagas":[
+        {
+            "id": 1,
+            "titulo": "Programador FullStack "
+        },
+
+        {
+            "id": 2,
+            "titulo":"Dev. Front-End"
+        },
+
+        {
+            "id": 3,
+            "titulo": "Dev. Back-End"
+        },
+
+        {
+            "id": 4,
+            "titulo": "Engenheiro de Software"
+        },
+
+        {
+            "id": 5,
+            "titulo": "Analise e Desenvolvimento de Sistemas"
+        }
+    ]
+}
