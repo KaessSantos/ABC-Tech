@@ -1,28 +1,66 @@
 {
-    "vagas":[
-        {
-            "id": 1,
-            "titulo": "Programador FullStack "
-        },
-
-        {
-            "id": 2,
-            "titulo":"Dev. Front-End"
-        },
-
-        {
-            "id": 3,
-            "titulo": "Dev. Back-End"
-        },
-
-        {
-            "id": 4,
-            "titulo": "Engenheiro de Software"
-        },
-
-        {
-            "id": 5,
-            "titulo": "Analise e Desenvolvimento de Sistemas"
-        }
-    ]
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador FullStack "
+    },
+    {
+      "id": 2,
+      "titulo": "Dev. Front-End"
+    },
+    {
+      "id": 3,
+      "titulo": "Dev. Back-End"
+    },
+    {
+      "id": 4,
+      "titulo": "Engenheiro de Software"
+    },
+    {
+      "id": 5,
+      "titulo": "Analise e Desenvolvimento de Sistemas"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "kassio kennedy",
+      "data": "2023-02-28",
+      "telefone": "11949214071",
+      "email": "santoskassio@gmail.com",
+      "vagas": "Dev. Front-End",
+      "id": 1
+    },
+    {
+      "nome": "kaio",
+      "data": "2023-03-25",
+      "telefone": "11949214071",
+      "email": "santoskassio@gmail.com",
+      "vagas": "Dev. Back-End",
+      "id": 2
+    },
+    {
+      "nome": "kassio kennedy",
+      "data": "2023-03-06",
+      "telefone": "11949214071",
+      "email": "santoskassio@gmail.com",
+      "vagas": "Dev. Front-End",
+      "id": 3
+    },
+    {
+      "nome": "kaio v",
+      "data": "2023-03-01",
+      "telefone": "11949214071",
+      "email": "santoskassio@gmail.com",
+      "vagas": "Programador FullStack ",
+      "id": 4
+    },
+    {
+      "nome": "Bia ",
+      "data": "2023-03-12",
+      "telefone": "11949214071",
+      "email": "santoskassio@gmail.com",
+      "vagas": "Engenheiro de Software",
+      "id": 5
+    }
+  ]
 }
