@@ -3,8 +3,8 @@
 
 const selectVagas = document.querySelector('#txtVaga');
 
-fetch("http://localhost:3000/vagas")
-.then(resposta => resposta.json())
+fetch("http://localhost:3000/vagas")  // fetch === buscar  
+.then(resposta => resposta.json())  // then === então
 .then(dados => {
 
     selectVagas.innerHTML = '<option></option>'
