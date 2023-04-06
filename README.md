@@ -1,3 +1,31 @@
-# ABC Tech
- Projeto feito no curso de  programador front-end na IMPACTA, aqui expandir meus conhecimentos em formulários, HTM, CSS é JS, fiz uma simulação criando uma "API" fake usando o node node.js, é guarda os dados dos usuário usando JSON(Simulação). Projeto responsivel em tela pequena ele fará com que o menu de navegação fique na lateral direita. 
-<a href="https://kaesssantos.github.io/ABC-Tech/"> Clique aqui no Projeto</a>
+# ABC-Tech
+ <h1 align="center">Projeto feito na instituição IMAPCTA</h1>
+ <h2 align="center">Programador Front-End</h2>
+ #<a href="https://kaesssantos.github.io/ABC-Tech/">Projeto</a>
+
+ <p>
+    <img alt="projeto portifólio" src=".github/abc-tech-menu.png" width="100%">
+ </p>
+ <p>
+    <img alt="projeto portifólio" src=".github/img-form.png" width="100%">
+ </p>
+
+ ## 🚀 Tecnologias
+
+ Esse projeto foi desenvolvido com as seguindes tecnologias:
+
+ - HTML e CSS 
+ - JavaScript
+ - GitHub
+ - node.js
+ - Bootstrap
+ -Jquery
+ - Visual Studio Code
+
+ ## 💻 Projeto
+
+ Fiz esse projeto com o intuito de expandir minhas habilidades com as tecnologias citadas acima.
+
+ ## :memo: Licença 
+
+ Esse projeto está sobre a licença MIT.
